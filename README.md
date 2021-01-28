@@ -1,0 +1,2 @@
+# RezervacijeException
+Napraviti hijararhiju izuzetaka vezanih za unos rezervaciju avionkih karata. Svaka rezervacija ima ime i prezime osobe koja vrši rezervaciju, datum i vreme polaska i odredište na koje korisnik ide. Ukoliko se desi da uneti datum ima više ili manje od 6 cifara i dve crtice treba da se desi DatumNijeValidanException. Ukoliko ime korisnika nema makar 2 karaktera treba da se desi ImeNijeValidnoException. Svi Exception-u koji su vezani za rezervaciju treba da naslede RezervacijaException. Testirati rad izuzetaka kroz pokretačku klasu
